@@ -37,7 +37,7 @@ export default function HomeLayout() {
 
                     return (
                         <Ionicons
-                            routename={getIconName(route.name)} // Use type-safe function
+                            name={getIconName(route.name)} // Use type-safe function
                             size={customizeSize}
                             color={focused ? 'white' : 'gray'}
                         />
@@ -51,7 +51,7 @@ export default function HomeLayout() {
                 },
             })}
         >
-            <Tabs.Screen name="index" />
+            <Tabs.Screen name="index"  />
             <Tabs.Screen name="search" />
             <Tabs.Screen name="saved" />
         </Tabs>
