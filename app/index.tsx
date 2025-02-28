@@ -9,7 +9,7 @@ export default function WelcomeScreen() {
     return (
         <View style={styles.container}>
             <Image
-                source={require("../assets/images/movie_app_splash.jpg")}
+                source={require("../assets/images/furniture.jpg")}
                 style={styles.backgroundImage}
                 resizeMode="cover"
             />
@@ -18,9 +18,9 @@ export default function WelcomeScreen() {
 
             <View style={styles.titleContainer}>
                 <View style={styles.mcLogo}>
-                    <Text style={styles.mcLogoText}>MC</Text>
+                    <Text style={styles.mcLogoText}>CHANIKMA</Text>
                 </View>
-                <Text style={styles.title}>Movie Cinema</Text>
+                <Text style={styles.title}>Chanikma Interior&Furniture</Text>
                 <Text style={styles.subtitle}>
                     Watch and find movies that bring your mood back.
                 </Text>
