@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
         maxWidth: '80%',
     },
     mcLogo: {
-        backgroundColor: 'red',
+        backgroundColor: 'blue',
         padding: 16,
         borderRadius: 24,
     },
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 48,
         paddingVertical: 12,
         borderRadius: 8,
-        backgroundColor: 'red',
+        backgroundColor: 'blue',
     },
     exploreButtonText: {
         color: 'white',
